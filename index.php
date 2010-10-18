@@ -23,7 +23,7 @@ echo '</tr></table>';
 
 
 
-define("DIVIDER",24);
+define("DIVIDER",25);
 
 unset($prfr);
 $prfr1=dibi::fetchAll("SELECT * FROM prfr ORDER BY datetime DESC LIMIT 40000");
